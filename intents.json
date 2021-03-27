@@ -32,40 +32,18 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "find",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "find the restaurant",
+        "show me the restaurant",
+        "is any restaurant nearby me",
+        "restaurant near me",
+        "restaurant in India",
+        "restaurant list"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Great to hear that, Can you please type city name and cuisine preference to know the restaurant location. \n\n Example: best American food in Mumbai",
+        "Cool, please type the city name and cuisine preference. \n\n Example: Best Chinese food in Delhi"
       ]
     },
     {
