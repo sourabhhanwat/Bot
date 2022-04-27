@@ -16,6 +16,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 cuisines_data = []
 stepword_data = []
+# main branch
 city_name = []
 cuisine_name = []
 
