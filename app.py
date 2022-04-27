@@ -8,7 +8,9 @@ from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 from nltk.corpus import stopwords
 import pandas as pd
-en_stops = set(stopwords.words('english'))
+
+
+en_stops =  set(stopwords.words('english'))
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
